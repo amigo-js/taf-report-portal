@@ -1,0 +1,51 @@
+{
+  "name": "webdriver-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts",
+    "sauce": "saucectl run --region eu-central-1",
+    "saucectl": "saucectl run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/types": "^8.0.8",
+    "chromedriver": "^108.0.0",
+    "expect-webdriverio": "^4.0.1",
+    "wdio-reportportal-service": "^7.3.1",
+    "wdio-slack-reporter": "^2.0.1",
+    "webdriverio": "^8.0.9"
+  },
+  "devDependencies": {
+    "@reportportal/agent-js-webdriverio": "^5.0.3",
+    "@types/mocha": "^10.0.1",
+    "@wdio/browserstack-service": "^8.0.8",
+    "@wdio/cli": "^8.0.9",
+    "@wdio/crossbrowsertesting-service": "^8.0.8",
+    "@wdio/devtools-service": "^8.0.8",
+    "@wdio/local-runner": "^8.0.9",
+    "@wdio/mocha-framework": "^8.0.9",
+    "@wdio/sauce-service": "^8.0.11",
+    "@wdio/shared-store-service": "^8.0.11",
+    "@wdio/spec-reporter": "^8.0.8",
+    "@wdio/sync": "^7.27.0",
+    "electron-chromedriver": "^22.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "wdio-chromedriver-service": "^8.0.1",
+    "wdio-docker-service": "^3.2.1",
+    "wdio-electron-service": "^3.5.0",
+    "wdio-eslinter-service": "^0.0.4",
+    "wdio-intercept-service": "^4.3.0",
+    "wdio-jira-service": "^0.2.0",
+    "wdio-ms-teams-service": "^0.1.9",
+    "wdio-reportportal-reporter": "^7.4.2",
+    "wdio-rerun-service": "^1.7.6",
+    "wdio-slack-service": "^2.0.9",
+    "wdio-vscode-service": "^5.0.0"
+  }
+}

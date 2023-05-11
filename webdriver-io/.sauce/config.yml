@@ -1,0 +1,8 @@
+region: "eu-central"
+user: "viktor_adamski"
+api-key: "fa9e227a-7510-43d8-a172-e64dfc3cfd4d"
+# this is my log file for SC I use for Mac OS tests.
+logfile: "/tmp/sc-mac.log"
+# this is the tunnel I use for Mac OS tests
+tunnel-identifier: "my-macos"
+

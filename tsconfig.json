@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node", "@wdio/sauce-service"],
+      "resolveJsonModule": true,
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
+  }
